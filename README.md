@@ -1,6 +1,8 @@
 # CSS tweaks for Vivaldi
 
-For more tweaks, check out [official forum](https://forum.vivaldi.net/category/52/modifications).
+A list of tweaks I have made for the [Vivaldi browser](https://vivaldi.net). Some tweaks may not be compatible with each other so test, read comments and adjust code as needed. The tweaks are free to use, modify and republish, unless written otherwise per-file.
+
+For more tweaks, check out [official forum](https://forum.vivaldi.net/category/52/modifications). I also co-create [tweaks for Firefox](https://github.com/Timvde/UserChrome-Tweaks).
 
 ### How to use the tweaks
 
