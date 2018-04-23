@@ -1,0 +1,7 @@
+/*
+   Removes the green background and makes the lock black on secure sites.
+*/
+.addressfield-siteinfo.secure {
+  fill: black !important; /* Make lock black */
+  background-color: transparent !important; /* Remove light green background */
+}
