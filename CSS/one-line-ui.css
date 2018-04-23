@@ -1,0 +1,54 @@
+/* 
+   One line UI for Vivaldi 1.14
+   Inspired by https://forum.vivaldi.net/topic/13042/one-line-ui-help-wanted
+*/
+
+
+.toolbar {
+    position: fixed !important; /* Set a fixed position for toolbar (before tabs) */
+    top: 0.1em !important; /* Position it from the top */
+    padding-left: 2em !important; /* Give space for reload */
+    z-index: 2 !important; /* Make sure autocomplete and overlays work */
+}
+
+.button-toolbar.back, .button-toolbar.forward, .button-toolbar.home
+{
+    display: none !important; /* Hide buttons except reload (personal preference) 
+                                 If you want more or less buttons, adjust the classes here
+                                 and add some padding-left in .toolbar and #tabs-container */
+}
+
+.button-toolbar.reload {
+    position: fixed !important; /* Set fixed position */
+    left: -0.2em !important; /* Show reload on the left edge */
+    top: -0.2em !important; /* Position it from the top */
+}
+
+.addressfield {
+    width: 35em !important; /* Set a fixed width for address bar */
+}
+
+#tabs-container {
+    padding-left: 38em !important; /* Add space before tabs to fit address bar/reload in */
+    z-index: 2 !important; /* Make sur overlays work */
+}
+
+/* The extension area will show on top of tabs, so collapse it as needed using the button. */
+.extensions-wrapper { 
+    position: fixed !important; /* Move the extension toolbar toggle position */
+    right: 9.5em !important; /* Position it next to trashbin */
+    top: -0.1em !important; /* Align it to top edge */
+    flex: unset !important; /* Show on top of tabs */
+}
+
+/* The Vivaldi button is very stubborn in terms of getting itself moved
+   from one corner to another, hence removing it completely. 
+   Plus it did not move the menu it opens, aka it would've opened the menu 
+   still on the left, even if the button is on the right.
+
+   Let me know if you find a consistent way of moving it; for now
+   you can access the menu by pressing Alt anywhere on the page.        */
+
+.vivaldi .burger-icon {
+    display: none !important; 
+}
