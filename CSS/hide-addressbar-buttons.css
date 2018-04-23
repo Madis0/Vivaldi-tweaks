@@ -1,0 +1,15 @@
+/*
+   Hide address bar buttons
+*/
+
+.button-addressfield.input-dropdown {
+  display: none !important; /* Hide address bar dropmark */
+}
+
+.addressfield-popup-container {
+  display: none !important; /* Hide the bookmark icon */
+}
+
+.button-addressfield.reader-mode {
+  display: none !important; /* Hide the reader icon */
+}
