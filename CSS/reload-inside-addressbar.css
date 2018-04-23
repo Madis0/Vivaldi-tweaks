@@ -1,0 +1,17 @@
+/*
+   Removes home button and adjusts address bar to make reload button seem to be inside it.
+*/
+
+.button-toolbar.home
+{
+    display: none !important; /* Hide home button */
+}
+
+.addressfield {
+    margin-left: -2.4em !important; /* Move address bar itself to left */
+    padding-left: 2em !important; /* Add padding to fit reload in */
+}
+
+.button-toolbar.reload {
+    z-index: 2 !important; /* Show reload on top */
+}
