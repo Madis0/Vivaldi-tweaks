@@ -1,6 +1,4 @@
-# Vivaldi-tweaks
-
-CSS tweaks for Vivaldi. You may need to follow the tutorial again after Vivaldi updates.
+# CSS tweaks for Vivaldi
 
 For more tweaks, check out [official forum](https://forum.vivaldi.net/category/52/modifications).
 
@@ -15,6 +13,7 @@ For more tweaks, check out [official forum](https://forum.vivaldi.net/category/5
 7. Copy any code snippets from the folder **CSS** to the file, save the file
 8. Start Vivaldi, enjoy!
 
+You may need to follow the tutorial again after Vivaldi updates.
 
 ### How to inspect Vivaldi's UI
 
