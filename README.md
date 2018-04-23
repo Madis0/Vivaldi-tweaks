@@ -1,6 +1,8 @@
 # Vivaldi-tweaks
 
-CSS tweaks for Vivaldi.
+CSS tweaks for Vivaldi. You may need to follow the tutorial again after Vivaldi updates.
+
+For more tweaks, check out [official forum](https://forum.vivaldi.net/category/52/modifications).
 
 ### How to use the tweaks
 
@@ -10,7 +12,7 @@ CSS tweaks for Vivaldi.
 4. Open `browser.html` with a text editor with administrator permissions
 5. Add `<link rel="stylesheet" href="style/custom.css" />` after `<link rel="stylesheet" href="style/common.css" />`
 6. Open **style** and create a file `custom.css` with a text editor with administrator permissions
-7. Copy any code snippets from the folder **CSS** to the file, save
+7. Copy any code snippets from the folder **CSS** to the file, save the file
 8. Start Vivaldi, enjoy!
 
 
