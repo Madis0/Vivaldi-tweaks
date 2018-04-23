@@ -1,0 +1,13 @@
+/*
+  Makes the lock and text black, removes backgrounds on EV SSL pages (secure sites that show site owner name)
+*/
+
+.addressfield-siteinfo.certified .siteinfo-symbol {
+  fill: black !important; /* Make lock black */
+  background-color: transparent !important; /* Remove green background */
+ }
+
+.addressfield-siteinfo.certified {
+  color: black !important; /* Make EV SSL text black */
+  background-color: transparent !important; /* Remove light green background */
+}
