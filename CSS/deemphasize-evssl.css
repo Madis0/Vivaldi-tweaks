@@ -9,5 +9,5 @@
 
 .addressfield-siteinfo.certified {
   color: black !important; /* Make EV SSL text black */
-  background-color: transparent !important; /* Remove light green background */
+  background-color: white !important; /* Make the background white (for visibility in private windows) */
 }
