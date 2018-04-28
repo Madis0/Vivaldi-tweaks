@@ -1,5 +1,8 @@
 /* 
    One line UI for Vivaldi 1.14
+   Before usage remove the fast-foward and rewind buttons, search bar and enable 
+   extension toggle button. The style is meant to be used in a maximized window only, 
+   on restored windows it may not look as good.
    Inspired by https://forum.vivaldi.net/topic/13042/one-line-ui-help-wanted
 */
 
