@@ -1,0 +1,7 @@
+.tab:not(.pinned) .favicon{
+   display: none !important; /* Remove favicon from normal tabs */
+}
+
+.tab:not(.pinned) .tab-header{
+   padding: 0px !important; /* Remove padding from normal tabs to fit title even better */
+}
