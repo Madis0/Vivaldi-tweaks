@@ -1,4 +1,6 @@
-/* Shows only thumbnails on tabs, like the Sleipnir browser.
+/* Like tab-thumbnails-only.css, but active tab will look normal. 
+
+  Shows only thumbnails on tabs, like the Sleipnir browser.
   Make sure the setting "Thumbnails on tabs" is enabled before using this style.
 
   Also be aware that the close buttons will disappear and active tab has very light
@@ -8,6 +10,6 @@
   the tab bar.
 */
 
-.tab-header {
+.tab:not(.active) .tab-header {
    display: none !important; /* Hide tab header */
 }
