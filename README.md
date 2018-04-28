@@ -6,14 +6,15 @@ For more tweaks, check out [official forum](https://forum.vivaldi.net/category/5
 
 ### How to use the tweaks
 
-1. Open `vivaldi://version`
-2. Open the Executable Path in your file browser, close Vivaldi
-3. Click on **resources** -> **vivaldi**
-4. Open `browser.html` with a text editor with administrator permissions
-5. Add `<link rel="stylesheet" href="style/custom.css" />` after `<link rel="stylesheet" href="style/common.css" />`
-6. Open **style** and create a file `custom.css` with a text editor with administrator permissions
-7. Copy any code snippets from the folder **CSS** to the file, save the file
-8. Start Vivaldi, enjoy!
+1. Open `vivaldi://about`
+2. Open the Executable Path in your file browser without the last part (such as `/vivaldi.exe`)
+3. Click on *(version number)* -> **resources** -> **vivaldi**
+4. Close Vivaldi
+5. Open `browser.html` with a text editor with administrator permissions
+6. Add `<link rel="stylesheet" href="style/custom.css" />` after `<link rel="stylesheet" href="style/common.css" />`
+7. Open **style** and create a file `custom.css` with a text editor with administrator permissions
+8. Copy any code snippets from the folder **CSS** to the file, save the file
+9. Start Vivaldi, enjoy!
 
 You may need to follow the tutorial again after Vivaldi updates.
 
