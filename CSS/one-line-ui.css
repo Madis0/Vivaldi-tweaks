@@ -1,5 +1,5 @@
 /* 
-   One line UI for Vivaldi 1.14
+   One line UI for Vivaldi 1.16
    Before usage remove the fast-foward and rewind buttons, search bar and enable 
    extension toggle button. The style is meant to be used in a maximized window only, 
    on restored windows it may not look as good.
@@ -34,6 +34,10 @@
 #tabs-container {
     padding-left: 38em !important; /* Add space before tabs to fit address bar/reload in */
     z-index: 2 !important; /* Make sur overlays work */
+}
+
+.address-top .toolbar-addressbar:after, .address-top .toolbar-mailbar:after {
+    display: none !important; /* Remove a weird white line below the address bar */
 }
 
 /* The extension area will show on top of tabs, so collapse it as needed using the button. */
