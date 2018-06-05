@@ -1,0 +1,14 @@
+/* 
+ * Removes the minimize and maximize button.
+ * You can't reclaim the lost space as easily, so use something else in there, such as extensions. 
+ */
+
+
+#titlebar > div > button.window-minimize {
+   display: none !important; /* Remove minimize button */
+}
+
+#titlebar > div > button.window-maximize {
+   display: none !important; /* Remove maximize button */
+}
+
